@@ -1,0 +1,14 @@
+# Screenshots and debug output (generated locally, never published)
+tab-*.png
+shot*.png
+debug.txt
+
+# IDE / build intermediates
+.vs/
+*.user
+bin/
+obj/
+
+# Symbol files only — dist/AE插件管理器.exe is the shipped release artifact
+# and is deliberately NOT ignored.
+dist/*.pdb
