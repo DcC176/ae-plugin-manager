@@ -2,8 +2,10 @@
 
 > [English documentation](README.en.md) · 中文
 
+> 仓库：https://github.com/DcC176/ae-plugin-manager ｜ 下载：https://github.com/DcC176/ae-plugin-manager/releases/latest
+
 一个轻量的 After Effects 插件管理工具：**扫描纳管已有插件、检测冲突与不适用的插件、拖入压缩包一键安装**，思路参考 Blender 的 BLT。
-单文件 exe（**约 121 KB**），Windows 10/11 自带 .NET Framework 运行时即可运行，无需安装任何依赖。**界面支持中英文**（菜单「界面语言」切换，启动时也会自动跟随系统语言）。
+单文件 exe（**约 163 KB**），Windows 10/11 自带 .NET Framework 运行时即可运行，无需安装任何依赖。**界面支持中英文**（菜单「界面语言」切换，启动时也会自动跟随系统语言）。
 
 ```
 dist\AEPluginManager.exe     ← 直接双击运行（发布用的英文名）
