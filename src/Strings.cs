@@ -33,7 +33,7 @@ namespace AePluginManager
             Add(map, "  这个包里有多个可安装的内容，请选择要装的版本：", "  This package contains multiple installable items; please select the version to install:");
             Add(map, "  这个包只有安装程序，请选择要运行的安装器（安装向导由本软件拉起，不静默安装）：", "  This package contains only installers; please select the installer to run (the installer wizard is launched by this software, no silent install):");
             Add(map, "　⚠ After Effects 正在运行", "　⚠ After Effects is running");
-            Add(map, " 个", " item");
+            Add(map, " 个", " more");
             Add(map, " 个 AE 版本", " AE version");
             Add(map, " 个（见「已安装插件」页）", " (see the \"Installed Plugins\" tab)");
             Add(map, " 个覆盖现有文件", " will overwrite existing files");
@@ -71,7 +71,7 @@ namespace AePluginManager
             Add(map, "安全说明", "Safety notes");
             Add(map, "安全说明(&S)", "Safety &notes(&S)");
             Add(map, "安装插件", "Install Plugin");
-            Add(map, "安装程序不存在：", "Installer not found:");
+            Add(map, "安装程序不存在：", "Installer not found: ");
             Add(map, "安装结果", "Install result");
             Add(map, "安装器运行结果", "Installer run result");
             Add(map, "安装完成，本次新增/更新了 {0} 个插件：", "Installation complete. {0} plugins were added or updated this time:");
@@ -116,7 +116,7 @@ namespace AePluginManager
             Add(map, "级别", "Severity");
             Add(map, "即将把「{0}」安装到 {1} 个 AE 版本：\n  {2}\n\n共 {3} 个文件（{4}）{5}\n\n", "About to install \"{0}\" to {1} AE versions:\n  {2}\n\n{3} files in total ({4}){5}\n\n");
             Add(map, "即将运行安装程序：\n\n  {0}\n\n", "About to run the installer:\n\n  {0}\n\n");
-            Add(map, "建议：", "Suggestions:");
+            Add(map, "建议：", "Suggestions: ");
             Add(map, "将安装到：{0}", "Will be installed to: {0}");
             Add(map, "将写入的位置", "Locations to be written");
             Add(map, "脚本", "Scripts");
@@ -125,7 +125,7 @@ namespace AePluginManager
             Add(map, "可能的原因：", "Possible causes:");
             Add(map, "可以试试「以管理员身份运行安装器」，或点「重新扫描」后再看。", "Try \"Run Installer as Administrator\", or click \"Rescan\" and check again.");
             Add(map, "扩展", "Extensions");
-            Add(map, "来源：", "Source:");
+            Add(map, "来源：", "Source: ");
             Add(map, "类型", "Type");
             Add(map, "没有可运行的安装器", "No installer available to run");
             Add(map, "名称", "Name");
@@ -154,10 +154,10 @@ namespace AePluginManager
             Add(map, "涉及文件：", "Files involved:");
             Add(map, "生成安装方案失败", "Failed to generate install plan");
             Add(map, "时间", "Time");
-            Add(map, "识别包名：", "Package name detected:");
+            Add(map, "识别包名：", "Package name detected: ");
             Add(map, "识别失败", "Detection failed");
             Add(map, "数据目录（备份 / 回收区 / 日志）：\n{2}\n\n", "Data folder (backup / Recycle Bin / log):\n{2}\n\n");
-            Add(map, "数据目录：", "Data folder:");
+            Add(map, "数据目录：", "Data folder: ");
             Add(map, "刷新", "Refresh");
             Add(map, "特效插件", "Effect plugin");
             Add(map, "提示", "Info");
@@ -174,7 +174,7 @@ namespace AePluginManager
             Add(map, "写入前会自动备份被覆盖的文件；安装记录可在「回收区」一键还原。", "Overwritten files are backed up automatically before writing; install records can be restored in one click from the \"Recycle Bin\".");
             Add(map, "卸载到回收区", "Uninstall to Recycle Bin");
             Add(map, "卸载结果", "Uninstall result");
-            Add(map, "新的备份位置：", "New backup location:");
+            Add(map, "新的备份位置：", "New backup location: ");
             Add(map, "新增", "New");
             Add(map, "修复方案", "Fix plan");
             Add(map, "修复结果", "Fix result");
@@ -187,7 +187,7 @@ namespace AePluginManager
             Add(map, "严重 {0} · 注意 {1} · 提示 {2}　可一键修复 {3} 项", "{0} critical · {1} warnings · {2} info　{3} items can be fixed in one click");
             Add(map, "一键还原", "Restore in one click");
             Add(map, "一键修复", "One-click Fix");
-            Add(map, "一键修复：", "One-click Fix:");
+            Add(map, "一键修复：", "One-click Fix: ");
             Add(map, "已安装插件", "Installed Plugins");
             Add(map, "已切换", "Switched");
             Add(map, "以管理员身份运行安装器", "Run Installer as Administrator");
@@ -202,7 +202,7 @@ namespace AePluginManager
             Add(map, "这一项没有需要处理的文件", "This item has no files to process");
             Add(map, "正在安装到 AE ", "Installing to AE ");
             Add(map, "正在扫描 AE 插件目录…", "Scanning AE plugin directories...");
-            Add(map, "正在识别：", "Detecting:");
+            Add(map, "正在识别：", "Detecting: ");
             Add(map, "至少需要保留一份", "At least one copy must be kept");
             Add(map, "重新检测", "Detect Again");
             Add(map, "重新扫描", "Rescan");
@@ -226,7 +226,7 @@ namespace AePluginManager
             Add(map, "{0} 个非插件文件", "{0} non-plugin files");
             Add(map, "{0}：{1} 个文件", "{0}: {1} files");
             Add(map, "⚠ 其中 {0} 个文件会覆盖同名文件（覆盖前自动备份，可一键还原）", "⚠ {0} of these files will overwrite files with the same name (they are backed up automatically before overwriting and can be restored in one click)");
-            Add(map, "⚠ 位数不匹配，装在 64 位 AE 上不会被加载：", "⚠ Bitness mismatch; they will not be loaded in 64-bit AE:");
+            Add(map, "⚠ 位数不匹配，装在 64 位 AE 上不会被加载：", "⚠ Bitness mismatch; they will not be loaded in 64-bit AE: ");
             Add(map, "AE {0}：\"{1}\" 存在 {2} 个副本", "AE {0}: \"{1}\" has {2} copies");
             Add(map, "AE {0}：{1} 个特效插件文件放在了 Scripts 目录", "AE {0}: {1} effect plugin files are in the Scripts folder");
             Add(map, "After Effects 正在运行", "After Effects is running");
